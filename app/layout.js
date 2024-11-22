@@ -23,6 +23,9 @@ export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
     <html lang="en">
+      <head>
+      <link rel="icon" href="/uber-clone-favicon.ico" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
