@@ -1,5 +1,14 @@
 {
   "compilerOptions": {
+    "target": "ES2016", // or ESNext
+    "lib": ["DOM", "ES2015"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".", // Required for "paths" to work
     "paths": {
       "@/*": ["./*"]
     }
