@@ -19,7 +19,7 @@ function Header() {
   return (
     <div className="p-4 border-b-[4px] border-gray-200 flex items-center justify-between w-full">
       {/* Left Section: Logo and Icons */}
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 pl-2">
         {/* Logo */}
         <Image
           src="https://utfs.io/f/WrQ6kuKulYjkfSEgt1sX06nSk5ATbUilgdyxPBO2wcLpMVJH"
@@ -30,7 +30,7 @@ function Header() {
         />
 
         {/* Header Menu */}
-        <div className="flex gap-4 items-center sm:gap-6">
+        <div className="flex gap-4 items-center sm:gap-6 pl-5">
           {headerMenu.map((item) => (
             <div
               key={item.id}
