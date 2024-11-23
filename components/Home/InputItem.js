@@ -28,7 +28,7 @@ function InputItem({ type }) {
 
       {/* Google Places Autocomplete */}
       <GooglePlacesAutocomplete
-        apiKey={process.env.NEXT_PUBLIC_GOOGLE_API_KEY}
+        apiKey={process.env.NEXT_PUBLIC_GOOGLE_API}
         selectProps={{
           value: value,
           onChange: setValue,
