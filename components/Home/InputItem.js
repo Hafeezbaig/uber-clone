@@ -59,22 +59,22 @@ function InputItem({ type }) {
   };
 
   return (
-    <div className="bg-slate-200 p-3 rounded-lg mt-3 flex items-center gap-4">
+    <div className="bg-slate-200 p-3 rounded-lg mt-3 flex items-center gap-4 cursor-pointer">
       {/* Conditional Image Source */}
       <Image
         src={
           type === "source"
-            ? "https://utfs.io/f/WrQ6kuKulYjkyoiXZyh8helHDSZTKXcq5iWOv3C8zbE2LrV4"
-            : "https://utfs.io/f/WrQ6kuKulYjkyoiXZyh8helHDSZTKXcq5iWOv3C8zbE2LrV4"
+            ? "https://utfs.io/f/WrQ6kuKulYjkKUiP5qwmMyZoKIUAq1hjw7ukVNrSxJv695e3"
+            : "https://utfs.io/f/WrQ6kuKulYjktTcAc7vs7RmGvBKpE219a0rOlIgycoNkiudL"
         }
-        width={15}
-        height={15}
+        width={20}
+        height={20}
         alt="icon"
       />
 
       {/* Google Places Autocomplete */}
       <GooglePlacesAutocomplete
-        apiKey={process.env.NEXT_PUBLIC_GOOGLE_API}
+        // apiKey={process.env.NEXT_PUBLIC_GOOGLE_API}
         selectProps={{
           value: value,
           onChange: (place) => {
