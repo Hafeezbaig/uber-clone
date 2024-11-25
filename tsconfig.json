@@ -1,35 +1,33 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": false,
-    "noEmit": true,
-    "incremental": true,
-    "module": "esnext",
-    "esModuleInterop": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
+    "target": "ES2017", // Target modern JavaScript
+    "lib": ["dom", "dom.iterable", "esnext"], // Ensure support for modern features
+    "allowJs": true, // Allow JavaScript files
+    "skipLibCheck": true, // Skip type-checking for declaration files
+    "strict": true, // Enable strict mode for better type-checking
+    "noEmit": true, // Prevent emitting JavaScript files
+    "incremental": true, // Use incremental builds for better performance
+    "module": "esnext", // Use ESNext module resolution
+    "esModuleInterop": true, // Allow default imports for CommonJS modules
+    "moduleResolution": "node", // Use Node.js module resolution
+    "resolveJsonModule": true, // Enable importing JSON files
+    "isolatedModules": true, // Required by Next.js
+    "jsx": "preserve", // Preserve JSX for Next.js
     "plugins": [
       {
-        "name": "next"
+        "name": "next" // Enable Next.js TypeScript plugin
       }
     ]
   },
   "include": [
-    "next-env.d.ts",
-    ".next/types/**/*.ts",
-    "**/*.ts",
-    "**/*.tsx"
+    "next-env.d.ts", // Include Next.js environment types
+    ".next/types/**/*.ts", // Include Next.js generated types
+    "**/*.ts", // Include all TypeScript files
+    "**/*.tsx" // Include all TSX files
   ],
   "exclude": [
-    "node_modules"
+    "node_modules", // Exclude dependencies
+    "**/*.test.ts", // Optionally exclude test files
+    "**/*.test.tsx" // Optionally exclude test files
   ]
 }
