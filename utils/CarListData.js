@@ -1,20 +1,20 @@
 export const CarListData = [
-    {
-        id: 1,
-        name: 'Moto',
-        seat: 1,
-        desc: 'Affordable, motorcycle rides',
-        amount: 12,
-        image: 'https://utfs.io/f/WrQ6kuKulYjk6QU1e45a73dw5bucQz1OR9KnhWxYNaGs2FJy'
-    },
-    {
-        id: 2,
-        name: 'Uber Auto',
-        seat: 3,
-        desc: 'No bargaining, doorstep pick-up',
-        amount: 15,
-        image: 'https://utfs.io/f/WrQ6kuKulYjk3e7KgGYXqpSvLJ2ouDYPK1gRr6hVcxHFfmOZ'
-    },
+    // {
+    //     id: 1,
+    //     name: 'Moto',
+    //     seat: 1,
+    //     desc: 'Affordable, motorcycle rides',
+    //     amount: 12,
+    //     image: 'https://utfs.io/f/WrQ6kuKulYjk6QU1e45a73dw5bucQz1OR9KnhWxYNaGs2FJy'
+    // },
+    // {
+    //     id: 2,
+    //     name: 'Uber Auto',
+    //     seat: 3,
+    //     desc: 'No bargaining, doorstep pick-up',
+    //     amount: 15,
+    //     image: 'https://utfs.io/f/WrQ6kuKulYjk3e7KgGYXqpSvLJ2ouDYPK1gRr6hVcxHFfmOZ'
+    // },
     {
         id: 3,
         name: 'Uber Go',
